@@ -1,0 +1,675 @@
+[2017-10-27 20:37:37] ======= IDer boot ======
+[2017-10-27 20:37:37] Called url: https://status-dev.dynabic.com/auth/login
+[2017-10-27 20:37:37] Set redirect url: https://status-dev.dynabic.com/idercallback
+[2017-10-27 20:37:37] Session start
+[2017-10-27 20:37:37] Libraries check passed
+[2017-10-27 20:37:37] Scope reset to: openid
+[2017-10-27 20:37:37] Scope set to: openid  https://status-dev.dynabic.com/auth/login/callback
+[2017-10-27 20:37:37] Booted
+[2017-10-27 20:39:52] ======= IDer boot ======
+[2017-10-27 20:39:52] Called url: https://status-dev.dynabic.com/auth/login
+[2017-10-27 20:39:52] Set redirect url: https://status-dev.dynabic.com/idercallback
+[2017-10-27 20:39:52] Session start
+[2017-10-27 20:39:52] Libraries check passed
+[2017-10-27 20:39:52] Scope reset to: openid
+[2017-10-27 20:39:52] Scope set to: openid  https://status-dev.dynabic.com/auth/login/callback
+[2017-10-27 20:39:52] Booted
+[2017-10-27 20:39:52] autenticate()
+[2017-10-27 20:39:52] Request code IS NOT set
+[2017-10-27 20:39:52] requestAuthorization()
+[2017-10-27 20:39:52] getProviderConfigValue()
+[2017-10-27 20:39:52] fetchURL(): https://oid.ider.com/core/.well-known/openid-configuration
+[2017-10-27 20:39:52] Request headers: Array
+(
+)
+
+[2017-10-27 20:39:52] Request body: 
+[2017-10-27 20:39:54] Response: {"issuer":"https://oid.ider.com/core","jwks_uri":"https://oid.ider.com/core/.well-known/jwks","authorization_endpoint":"https://oid.ider.com/core/connect/authorize","token_endpoint":"https://oid.ider.com/core/connect/token","userinfo_endpoint":"https://oid.ider.com/core/connect/userinfo","end_session_endpoint":"https://oid.ider.com/core/connect/endsession","check_session_iframe":"https://oid.ider.com/core/connect/checksession","revocation_endpoint":"https://oid.ider.com/core/connect/revocation","introspection_endpoint":"https://oid.ider.com/core/connect/introspect","frontchannel_logout_supported":true,"frontchannel_logout_session_supported":true,"claims_supported":[],"response_types_supported":["code","token","id_token","id_token token","code id_token","code token","code id_token token"],"response_modes_supported":["form_post","query","fragment"],"grant_types_supported":["authorization_code","client_credentials","password","refresh_token","implicit"],"subject_types_supported":["public"],"id_token_signing_alg_values_supported":["RS256"],"code_challenge_methods_supported":["plain","S256"],"token_endpoint_auth_methods_supported":["client_secret_post","client_secret_basic"]}
+[2017-10-27 20:39:54] Discovery: Array
+(
+    [issuer] => https://oid.ider.com/core
+    [jwks_uri] => https://oid.ider.com/core/.well-known/jwks
+    [authorization_endpoint] => https://oid.ider.com/core/connect/authorize
+    [token_endpoint] => https://oid.ider.com/core/connect/token
+    [userinfo_endpoint] => https://oid.ider.com/core/connect/userinfo
+    [end_session_endpoint] => https://oid.ider.com/core/connect/endsession
+    [check_session_iframe] => https://oid.ider.com/core/connect/checksession
+    [revocation_endpoint] => https://oid.ider.com/core/connect/revocation
+    [introspection_endpoint] => https://oid.ider.com/core/connect/introspect
+    [frontchannel_logout_supported] => 1
+    [frontchannel_logout_session_supported] => 1
+    [claims_supported] => Array
+        (
+        )
+
+    [response_types_supported] => Array
+        (
+            [0] => code
+            [1] => token
+            [2] => id_token
+            [3] => id_token token
+            [4] => code id_token
+            [5] => code token
+            [6] => code id_token token
+        )
+
+    [response_modes_supported] => Array
+        (
+            [0] => form_post
+            [1] => query
+            [2] => fragment
+        )
+
+    [grant_types_supported] => Array
+        (
+            [0] => authorization_code
+            [1] => client_credentials
+            [2] => password
+            [3] => refresh_token
+            [4] => implicit
+        )
+
+    [subject_types_supported] => Array
+        (
+            [0] => public
+        )
+
+    [id_token_signing_alg_values_supported] => Array
+        (
+            [0] => RS256
+        )
+
+    [code_challenge_methods_supported] => Array
+        (
+            [0] => plain
+            [1] => S256
+        )
+
+    [token_endpoint_auth_methods_supported] => Array
+        (
+            [0] => client_secret_post
+            [1] => client_secret_basic
+        )
+
+)
+
+[2017-10-27 20:39:54] set state: 2b496cd486ca78b3062168c22c899fea
+[2017-10-27 20:39:54] set nonce: 3d864659564e48b8ec6f31a83c10cac6
+[2017-10-27 20:39:55] Redirect to: https://oid.ider.com/core/connect/authorize?response_type=code&redirect_uri=https%3A%2F%2Fstatus-dev.dynabic.com%2Fidercallback&client_id=https%3A%2F%2Fidsrv-qa.asposeptyltd.com%2Fidentity&nonce=3d864659564e48b8ec6f31a83c10cac6&state=2b496cd486ca78b3062168c22c899fea&scope=openid++https%3A%2F%2Fstatus-dev.dynabic.com%2Fauth%2Flogin%2Fcallback
+[2017-10-27 20:41:50] ======= IDer boot ======
+[2017-10-27 20:41:50] Called url: https://status-dev.dynabic.com/auth/login
+[2017-10-27 20:41:50] Set redirect url: https://status-dev.dynabic.com/idercallback
+[2017-10-27 20:41:50] Session start
+[2017-10-27 20:41:50] Libraries check passed
+[2017-10-27 20:41:50] Scope reset to: openid
+[2017-10-27 20:41:50] Scope set to: openid  https://status-dev.dynabic.com/auth/login/callback
+[2017-10-27 20:41:50] Booted
+[2017-10-27 20:41:50] autenticate()
+[2017-10-27 20:41:50] Request code IS NOT set
+[2017-10-27 20:41:50] requestAuthorization()
+[2017-10-27 20:41:50] getProviderConfigValue()
+[2017-10-27 20:41:50] fetchURL(): https://oid.ider.com/core/.well-known/openid-configuration
+[2017-10-27 20:41:50] Request headers: Array
+(
+)
+
+[2017-10-27 20:41:50] Request body: 
+[2017-10-27 20:41:52] Response: {"issuer":"https://oid.ider.com/core","jwks_uri":"https://oid.ider.com/core/.well-known/jwks","authorization_endpoint":"https://oid.ider.com/core/connect/authorize","token_endpoint":"https://oid.ider.com/core/connect/token","userinfo_endpoint":"https://oid.ider.com/core/connect/userinfo","end_session_endpoint":"https://oid.ider.com/core/connect/endsession","check_session_iframe":"https://oid.ider.com/core/connect/checksession","revocation_endpoint":"https://oid.ider.com/core/connect/revocation","introspection_endpoint":"https://oid.ider.com/core/connect/introspect","frontchannel_logout_supported":true,"frontchannel_logout_session_supported":true,"claims_supported":[],"response_types_supported":["code","token","id_token","id_token token","code id_token","code token","code id_token token"],"response_modes_supported":["form_post","query","fragment"],"grant_types_supported":["authorization_code","client_credentials","password","refresh_token","implicit"],"subject_types_supported":["public"],"id_token_signing_alg_values_supported":["RS256"],"code_challenge_methods_supported":["plain","S256"],"token_endpoint_auth_methods_supported":["client_secret_post","client_secret_basic"]}
+[2017-10-27 20:41:52] Discovery: Array
+(
+    [issuer] => https://oid.ider.com/core
+    [jwks_uri] => https://oid.ider.com/core/.well-known/jwks
+    [authorization_endpoint] => https://oid.ider.com/core/connect/authorize
+    [token_endpoint] => https://oid.ider.com/core/connect/token
+    [userinfo_endpoint] => https://oid.ider.com/core/connect/userinfo
+    [end_session_endpoint] => https://oid.ider.com/core/connect/endsession
+    [check_session_iframe] => https://oid.ider.com/core/connect/checksession
+    [revocation_endpoint] => https://oid.ider.com/core/connect/revocation
+    [introspection_endpoint] => https://oid.ider.com/core/connect/introspect
+    [frontchannel_logout_supported] => 1
+    [frontchannel_logout_session_supported] => 1
+    [claims_supported] => Array
+        (
+        )
+
+    [response_types_supported] => Array
+        (
+            [0] => code
+            [1] => token
+            [2] => id_token
+            [3] => id_token token
+            [4] => code id_token
+            [5] => code token
+            [6] => code id_token token
+        )
+
+    [response_modes_supported] => Array
+        (
+            [0] => form_post
+            [1] => query
+            [2] => fragment
+        )
+
+    [grant_types_supported] => Array
+        (
+            [0] => authorization_code
+            [1] => client_credentials
+            [2] => password
+            [3] => refresh_token
+            [4] => implicit
+        )
+
+    [subject_types_supported] => Array
+        (
+            [0] => public
+        )
+
+    [id_token_signing_alg_values_supported] => Array
+        (
+            [0] => RS256
+        )
+
+    [code_challenge_methods_supported] => Array
+        (
+            [0] => plain
+            [1] => S256
+        )
+
+    [token_endpoint_auth_methods_supported] => Array
+        (
+            [0] => client_secret_post
+            [1] => client_secret_basic
+        )
+
+)
+
+[2017-10-27 20:41:52] set state: fa5445f5f455e39ade5eaa2b4b27309e
+[2017-10-27 20:41:52] set nonce: d6bc20dcb1831c0c06c11739ba986a88
+[2017-10-27 20:41:52] Redirect to: https://oid.ider.com/core/connect/authorize?response_type=code&redirect_uri=https%3A%2F%2Fstatus-dev.dynabic.com%2Fidercallback&client_id=stage.dynabic.cachet&nonce=d6bc20dcb1831c0c06c11739ba986a88&state=fa5445f5f455e39ade5eaa2b4b27309e&scope=openid++https%3A%2F%2Fstatus-dev.dynabic.com%2Fauth%2Flogin%2Fcallback
+[2017-10-27 20:43:08] ======= IDer boot ======
+[2017-10-27 20:43:08] Called url: https://status-dev.dynabic.com/auth/login
+[2017-10-27 20:43:08] Set redirect url: https://status-dev.dynabic.com/idercallback
+[2017-10-27 20:43:08] Session start
+[2017-10-27 20:43:08] Libraries check passed
+[2017-10-27 20:43:08] Scope reset to: openid
+[2017-10-27 20:43:08] Scope set to: openid  https://status-dev.dynabic.com/auth/login/callback
+[2017-10-27 20:43:08] Booted
+[2017-10-27 20:43:08] autenticate()
+[2017-10-27 20:43:08] Request code IS NOT set
+[2017-10-27 20:43:08] requestAuthorization()
+[2017-10-27 20:43:08] getProviderConfigValue()
+[2017-10-27 20:43:08] fetchURL(): https://oid.ider.com/core/.well-known/openid-configuration
+[2017-10-27 20:43:08] Request headers: Array
+(
+)
+
+[2017-10-27 20:43:08] Request body: 
+[2017-10-27 20:43:11] Response: {"issuer":"https://oid.ider.com/core","jwks_uri":"https://oid.ider.com/core/.well-known/jwks","authorization_endpoint":"https://oid.ider.com/core/connect/authorize","token_endpoint":"https://oid.ider.com/core/connect/token","userinfo_endpoint":"https://oid.ider.com/core/connect/userinfo","end_session_endpoint":"https://oid.ider.com/core/connect/endsession","check_session_iframe":"https://oid.ider.com/core/connect/checksession","revocation_endpoint":"https://oid.ider.com/core/connect/revocation","introspection_endpoint":"https://oid.ider.com/core/connect/introspect","frontchannel_logout_supported":true,"frontchannel_logout_session_supported":true,"claims_supported":[],"response_types_supported":["code","token","id_token","id_token token","code id_token","code token","code id_token token"],"response_modes_supported":["form_post","query","fragment"],"grant_types_supported":["authorization_code","client_credentials","password","refresh_token","implicit"],"subject_types_supported":["public"],"id_token_signing_alg_values_supported":["RS256"],"code_challenge_methods_supported":["plain","S256"],"token_endpoint_auth_methods_supported":["client_secret_post","client_secret_basic"]}
+[2017-10-27 20:43:11] Discovery: Array
+(
+    [issuer] => https://oid.ider.com/core
+    [jwks_uri] => https://oid.ider.com/core/.well-known/jwks
+    [authorization_endpoint] => https://oid.ider.com/core/connect/authorize
+    [token_endpoint] => https://oid.ider.com/core/connect/token
+    [userinfo_endpoint] => https://oid.ider.com/core/connect/userinfo
+    [end_session_endpoint] => https://oid.ider.com/core/connect/endsession
+    [check_session_iframe] => https://oid.ider.com/core/connect/checksession
+    [revocation_endpoint] => https://oid.ider.com/core/connect/revocation
+    [introspection_endpoint] => https://oid.ider.com/core/connect/introspect
+    [frontchannel_logout_supported] => 1
+    [frontchannel_logout_session_supported] => 1
+    [claims_supported] => Array
+        (
+        )
+
+    [response_types_supported] => Array
+        (
+            [0] => code
+            [1] => token
+            [2] => id_token
+            [3] => id_token token
+            [4] => code id_token
+            [5] => code token
+            [6] => code id_token token
+        )
+
+    [response_modes_supported] => Array
+        (
+            [0] => form_post
+            [1] => query
+            [2] => fragment
+        )
+
+    [grant_types_supported] => Array
+        (
+            [0] => authorization_code
+            [1] => client_credentials
+            [2] => password
+            [3] => refresh_token
+            [4] => implicit
+        )
+
+    [subject_types_supported] => Array
+        (
+            [0] => public
+        )
+
+    [id_token_signing_alg_values_supported] => Array
+        (
+            [0] => RS256
+        )
+
+    [code_challenge_methods_supported] => Array
+        (
+            [0] => plain
+            [1] => S256
+        )
+
+    [token_endpoint_auth_methods_supported] => Array
+        (
+            [0] => client_secret_post
+            [1] => client_secret_basic
+        )
+
+)
+
+[2017-10-27 20:43:11] set state: c207b36bf95b1d2bc1744d1bd6392ddf
+[2017-10-27 20:43:11] set nonce: 926ccfd0710480248d9cf409cfbaf08c
+[2017-10-27 20:43:11] Redirect to: https://oid.ider.com/core/connect/authorize?response_type=code&redirect_uri=https%3A%2F%2Fstatus-dev.dynabic.com%2Fidercallback&client_id=stage.dynabic.cachet&nonce=926ccfd0710480248d9cf409cfbaf08c&state=c207b36bf95b1d2bc1744d1bd6392ddf&scope=openid++https%3A%2F%2Fstatus-dev.dynabic.com%2Fauth%2Flogin%2Fcallback
+[2017-10-27 20:45:06] ======= IDer boot ======
+[2017-10-27 20:45:06] Called url: https://status-dev.dynabic.com/auth/login
+[2017-10-27 20:45:06] Set redirect url: https://status-dev.dynabic.com/idercallback
+[2017-10-27 20:45:06] Session start
+[2017-10-27 20:45:06] Libraries check passed
+[2017-10-27 20:45:06] Scope reset to: openid
+[2017-10-27 20:45:06] Scope set to: openid  https://status-dev.dynabic.com/auth/login/callback
+[2017-10-27 20:45:06] Booted
+[2017-10-27 20:45:06] autenticate()
+[2017-10-27 20:45:06] Request code IS NOT set
+[2017-10-27 20:45:06] requestAuthorization()
+[2017-10-27 20:45:06] getProviderConfigValue()
+[2017-10-27 20:45:06] fetchURL(): https://oid.ider.com/core/.well-known/openid-configuration
+[2017-10-27 20:45:06] Request headers: Array
+(
+)
+
+[2017-10-27 20:45:06] Request body: 
+[2017-10-27 20:45:07] Response: {"issuer":"https://oid.ider.com/core","jwks_uri":"https://oid.ider.com/core/.well-known/jwks","authorization_endpoint":"https://oid.ider.com/core/connect/authorize","token_endpoint":"https://oid.ider.com/core/connect/token","userinfo_endpoint":"https://oid.ider.com/core/connect/userinfo","end_session_endpoint":"https://oid.ider.com/core/connect/endsession","check_session_iframe":"https://oid.ider.com/core/connect/checksession","revocation_endpoint":"https://oid.ider.com/core/connect/revocation","introspection_endpoint":"https://oid.ider.com/core/connect/introspect","frontchannel_logout_supported":true,"frontchannel_logout_session_supported":true,"claims_supported":[],"response_types_supported":["code","token","id_token","id_token token","code id_token","code token","code id_token token"],"response_modes_supported":["form_post","query","fragment"],"grant_types_supported":["authorization_code","client_credentials","password","refresh_token","implicit"],"subject_types_supported":["public"],"id_token_signing_alg_values_supported":["RS256"],"code_challenge_methods_supported":["plain","S256"],"token_endpoint_auth_methods_supported":["client_secret_post","client_secret_basic"]}
+[2017-10-27 20:45:07] Discovery: Array
+(
+    [issuer] => https://oid.ider.com/core
+    [jwks_uri] => https://oid.ider.com/core/.well-known/jwks
+    [authorization_endpoint] => https://oid.ider.com/core/connect/authorize
+    [token_endpoint] => https://oid.ider.com/core/connect/token
+    [userinfo_endpoint] => https://oid.ider.com/core/connect/userinfo
+    [end_session_endpoint] => https://oid.ider.com/core/connect/endsession
+    [check_session_iframe] => https://oid.ider.com/core/connect/checksession
+    [revocation_endpoint] => https://oid.ider.com/core/connect/revocation
+    [introspection_endpoint] => https://oid.ider.com/core/connect/introspect
+    [frontchannel_logout_supported] => 1
+    [frontchannel_logout_session_supported] => 1
+    [claims_supported] => Array
+        (
+        )
+
+    [response_types_supported] => Array
+        (
+            [0] => code
+            [1] => token
+            [2] => id_token
+            [3] => id_token token
+            [4] => code id_token
+            [5] => code token
+            [6] => code id_token token
+        )
+
+    [response_modes_supported] => Array
+        (
+            [0] => form_post
+            [1] => query
+            [2] => fragment
+        )
+
+    [grant_types_supported] => Array
+        (
+            [0] => authorization_code
+            [1] => client_credentials
+            [2] => password
+            [3] => refresh_token
+            [4] => implicit
+        )
+
+    [subject_types_supported] => Array
+        (
+            [0] => public
+        )
+
+    [id_token_signing_alg_values_supported] => Array
+        (
+            [0] => RS256
+        )
+
+    [code_challenge_methods_supported] => Array
+        (
+            [0] => plain
+            [1] => S256
+        )
+
+    [token_endpoint_auth_methods_supported] => Array
+        (
+            [0] => client_secret_post
+            [1] => client_secret_basic
+        )
+
+)
+
+[2017-10-27 20:45:07] set state: 0323d7bec09ec9a7233c723e480a5e6d
+[2017-10-27 20:45:07] set nonce: 1cb9e5fdac3b415c3701fd50b2c6b6cd
+[2017-10-27 20:45:08] Redirect to: https://oid.ider.com/core/connect/authorize?response_type=code&redirect_uri=https%3A%2F%2Fstatus-dev.dynabic.com%2Fidercallback&client_id=stage.dynabic.cachet&nonce=1cb9e5fdac3b415c3701fd50b2c6b6cd&state=0323d7bec09ec9a7233c723e480a5e6d&scope=openid++https%3A%2F%2Fstatus-dev.dynabic.com%2Fauth%2Flogin%2Fcallback
+[2017-10-27 20:54:27] ======= IDer boot ======
+[2017-10-27 20:54:27] Called url: https://status-dev.dynabic.com/auth/login
+[2017-10-27 20:54:27] Set redirect url: https://status-dev.dynabic.com/idercallback
+[2017-10-27 20:54:27] Session start
+[2017-10-27 20:54:27] Libraries check passed
+[2017-10-27 20:54:27] Scope reset to: openid
+[2017-10-27 20:54:27] Scope set to: openid  https://status-dev.dynabic.com/auth/login/callback
+[2017-10-27 20:54:27] Booted
+[2017-10-27 20:54:27] autenticate()
+[2017-10-27 20:54:27] Request code IS NOT set
+[2017-10-27 20:54:27] requestAuthorization()
+[2017-10-27 20:54:27] getProviderConfigValue()
+[2017-10-27 20:54:27] fetchURL(): https://oid.ider.com/core/.well-known/openid-configuration
+[2017-10-27 20:54:27] Request headers: Array
+(
+)
+
+[2017-10-27 20:54:27] Request body: 
+[2017-10-27 20:54:28] Response: {"issuer":"https://oid.ider.com/core","jwks_uri":"https://oid.ider.com/core/.well-known/jwks","authorization_endpoint":"https://oid.ider.com/core/connect/authorize","token_endpoint":"https://oid.ider.com/core/connect/token","userinfo_endpoint":"https://oid.ider.com/core/connect/userinfo","end_session_endpoint":"https://oid.ider.com/core/connect/endsession","check_session_iframe":"https://oid.ider.com/core/connect/checksession","revocation_endpoint":"https://oid.ider.com/core/connect/revocation","introspection_endpoint":"https://oid.ider.com/core/connect/introspect","frontchannel_logout_supported":true,"frontchannel_logout_session_supported":true,"claims_supported":[],"response_types_supported":["code","token","id_token","id_token token","code id_token","code token","code id_token token"],"response_modes_supported":["form_post","query","fragment"],"grant_types_supported":["authorization_code","client_credentials","password","refresh_token","implicit"],"subject_types_supported":["public"],"id_token_signing_alg_values_supported":["RS256"],"code_challenge_methods_supported":["plain","S256"],"token_endpoint_auth_methods_supported":["client_secret_post","client_secret_basic"]}
+[2017-10-27 20:54:28] Discovery: Array
+(
+    [issuer] => https://oid.ider.com/core
+    [jwks_uri] => https://oid.ider.com/core/.well-known/jwks
+    [authorization_endpoint] => https://oid.ider.com/core/connect/authorize
+    [token_endpoint] => https://oid.ider.com/core/connect/token
+    [userinfo_endpoint] => https://oid.ider.com/core/connect/userinfo
+    [end_session_endpoint] => https://oid.ider.com/core/connect/endsession
+    [check_session_iframe] => https://oid.ider.com/core/connect/checksession
+    [revocation_endpoint] => https://oid.ider.com/core/connect/revocation
+    [introspection_endpoint] => https://oid.ider.com/core/connect/introspect
+    [frontchannel_logout_supported] => 1
+    [frontchannel_logout_session_supported] => 1
+    [claims_supported] => Array
+        (
+        )
+
+    [response_types_supported] => Array
+        (
+            [0] => code
+            [1] => token
+            [2] => id_token
+            [3] => id_token token
+            [4] => code id_token
+            [5] => code token
+            [6] => code id_token token
+        )
+
+    [response_modes_supported] => Array
+        (
+            [0] => form_post
+            [1] => query
+            [2] => fragment
+        )
+
+    [grant_types_supported] => Array
+        (
+            [0] => authorization_code
+            [1] => client_credentials
+            [2] => password
+            [3] => refresh_token
+            [4] => implicit
+        )
+
+    [subject_types_supported] => Array
+        (
+            [0] => public
+        )
+
+    [id_token_signing_alg_values_supported] => Array
+        (
+            [0] => RS256
+        )
+
+    [code_challenge_methods_supported] => Array
+        (
+            [0] => plain
+            [1] => S256
+        )
+
+    [token_endpoint_auth_methods_supported] => Array
+        (
+            [0] => client_secret_post
+            [1] => client_secret_basic
+        )
+
+)
+
+[2017-10-27 20:54:28] set state: 950566562a08ab603b83e8ccebad40e5
+[2017-10-27 20:54:28] set nonce: a4671527ec5afc87e979927e0b0d9b2c
+[2017-10-27 20:54:28] Redirect to: https://oid.ider.com/core/connect/authorize?response_type=code&redirect_uri=https%3A%2F%2Fstatus-dev.dynabic.com%2Fidercallback&client_id=https%3A%2F%2Fidsrv-qa.asposeptyltd.com%2Fidentity&nonce=a4671527ec5afc87e979927e0b0d9b2c&state=950566562a08ab603b83e8ccebad40e5&scope=openid++https%3A%2F%2Fstatus-dev.dynabic.com%2Fauth%2Flogin%2Fcallback
+[2017-10-27 20:56:38] ======= IDer boot ======
+[2017-10-27 20:56:38] Called url: https://status-dev.dynabic.com/auth/login
+[2017-10-27 20:56:38] Set redirect url: https://status-dev.dynabic.com/idercallback
+[2017-10-27 20:56:38] Session start
+[2017-10-27 20:56:38] Libraries check passed
+[2017-10-27 20:56:38] Scope reset to: openid
+[2017-10-27 20:56:38] Scope set to: openid  https://status-dev.dynabic.com/auth/login/callback
+[2017-10-27 20:56:38] Booted
+[2017-10-27 20:56:38] autenticate()
+[2017-10-27 20:56:38] Request code IS NOT set
+[2017-10-27 20:56:38] requestAuthorization()
+[2017-10-27 20:56:38] getProviderConfigValue()
+[2017-10-27 20:56:38] fetchURL(): https://idsrv-qa.asposeptyltd.com/identity/.well-known/openid-configuration
+[2017-10-27 20:56:38] Request headers: Array
+(
+)
+
+[2017-10-27 20:56:38] Request body: 
+[2017-10-27 20:56:41] Response: {"issuer":"https://idsrv-qa.asposeptyltd.com/identity","jwks_uri":"https://idsrv-qa.asposeptyltd.com/identity/.well-known/jwks","authorization_endpoint":"https://idsrv-qa.asposeptyltd.com/identity/connect/authorize","token_endpoint":"https://idsrv-qa.asposeptyltd.com/identity/connect/token","userinfo_endpoint":"https://idsrv-qa.asposeptyltd.com/identity/connect/userinfo","end_session_endpoint":"https://idsrv-qa.asposeptyltd.com/identity/connect/endsession","check_session_iframe":"https://idsrv-qa.asposeptyltd.com/identity/connect/checksession","revocation_endpoint":"https://idsrv-qa.asposeptyltd.com/identity/connect/revocation","scopes_supported":["openid","profile","email","offline_access","read","write","roles"],"claims_supported":["sub","name","family_name","given_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthdate","zoneinfo","locale","updated_at","email","email_verified"],"response_types_supported":["code","token","id_token","id_token token","code id_token","code token","code id_token token"],"response_modes_supported":["form_post","query","fragment"],"grant_types_supported":["authorization_code","client_credentials","password","refresh_token","implicit"],"subject_types_supported":["public"],"id_token_signing_alg_values_supported":["RS256"],"token_endpoint_auth_methods_supported":["client_secret_post","client_secret_basic"]}
+[2017-10-27 20:56:41] Discovery: Array
+(
+    [issuer] => https://idsrv-qa.asposeptyltd.com/identity
+    [jwks_uri] => https://idsrv-qa.asposeptyltd.com/identity/.well-known/jwks
+    [authorization_endpoint] => https://idsrv-qa.asposeptyltd.com/identity/connect/authorize
+    [token_endpoint] => https://idsrv-qa.asposeptyltd.com/identity/connect/token
+    [userinfo_endpoint] => https://idsrv-qa.asposeptyltd.com/identity/connect/userinfo
+    [end_session_endpoint] => https://idsrv-qa.asposeptyltd.com/identity/connect/endsession
+    [check_session_iframe] => https://idsrv-qa.asposeptyltd.com/identity/connect/checksession
+    [revocation_endpoint] => https://idsrv-qa.asposeptyltd.com/identity/connect/revocation
+    [scopes_supported] => Array
+        (
+            [0] => openid
+            [1] => profile
+            [2] => email
+            [3] => offline_access
+            [4] => read
+            [5] => write
+            [6] => roles
+        )
+
+    [claims_supported] => Array
+        (
+            [0] => sub
+            [1] => name
+            [2] => family_name
+            [3] => given_name
+            [4] => middle_name
+            [5] => nickname
+            [6] => preferred_username
+            [7] => profile
+            [8] => picture
+            [9] => website
+            [10] => gender
+            [11] => birthdate
+            [12] => zoneinfo
+            [13] => locale
+            [14] => updated_at
+            [15] => email
+            [16] => email_verified
+        )
+
+    [response_types_supported] => Array
+        (
+            [0] => code
+            [1] => token
+            [2] => id_token
+            [3] => id_token token
+            [4] => code id_token
+            [5] => code token
+            [6] => code id_token token
+        )
+
+    [response_modes_supported] => Array
+        (
+            [0] => form_post
+            [1] => query
+            [2] => fragment
+        )
+
+    [grant_types_supported] => Array
+        (
+            [0] => authorization_code
+            [1] => client_credentials
+            [2] => password
+            [3] => refresh_token
+            [4] => implicit
+        )
+
+    [subject_types_supported] => Array
+        (
+            [0] => public
+        )
+
+    [id_token_signing_alg_values_supported] => Array
+        (
+            [0] => RS256
+        )
+
+    [token_endpoint_auth_methods_supported] => Array
+        (
+            [0] => client_secret_post
+            [1] => client_secret_basic
+        )
+
+)
+
+[2017-10-27 20:56:41] set state: de1df84ccc4bb03ea08c9d1b75343e00
+[2017-10-27 20:56:41] set nonce: 5adcd900a5a9696f01a4286cbe40c57c
+[2017-10-27 20:56:41] Redirect to: https://idsrv-qa.asposeptyltd.com/identity/connect/authorize?response_type=code&redirect_uri=https%3A%2F%2Fstatus-dev.dynabic.com%2Fidercallback&client_id=https%3A%2F%2Fidsrv-qa.asposeptyltd.com%2Fidentity&nonce=5adcd900a5a9696f01a4286cbe40c57c&state=de1df84ccc4bb03ea08c9d1b75343e00&scope=openid++https%3A%2F%2Fstatus-dev.dynabic.com%2Fauth%2Flogin%2Fcallback
+[2017-10-27 20:57:14] ======= IDer boot ======
+[2017-10-27 20:57:14] Called url: https://status-dev.dynabic.com/auth/login
+[2017-10-27 20:57:14] Set redirect url: https://status-dev.dynabic.com/idercallback
+[2017-10-27 20:57:14] Session start
+[2017-10-27 20:57:14] Libraries check passed
+[2017-10-27 20:57:14] Scope reset to: openid
+[2017-10-27 20:57:14] Booted
+[2017-10-27 20:57:14] autenticate()
+[2017-10-27 20:57:14] Request code IS NOT set
+[2017-10-27 20:57:14] requestAuthorization()
+[2017-10-27 20:57:14] getProviderConfigValue()
+[2017-10-27 20:57:14] fetchURL(): https://idsrv-qa.asposeptyltd.com/identity/.well-known/openid-configuration
+[2017-10-27 20:57:14] Request headers: Array
+(
+)
+
+[2017-10-27 20:57:14] Request body: 
+[2017-10-27 20:57:16] Response: {"issuer":"https://idsrv-qa.asposeptyltd.com/identity","jwks_uri":"https://idsrv-qa.asposeptyltd.com/identity/.well-known/jwks","authorization_endpoint":"https://idsrv-qa.asposeptyltd.com/identity/connect/authorize","token_endpoint":"https://idsrv-qa.asposeptyltd.com/identity/connect/token","userinfo_endpoint":"https://idsrv-qa.asposeptyltd.com/identity/connect/userinfo","end_session_endpoint":"https://idsrv-qa.asposeptyltd.com/identity/connect/endsession","check_session_iframe":"https://idsrv-qa.asposeptyltd.com/identity/connect/checksession","revocation_endpoint":"https://idsrv-qa.asposeptyltd.com/identity/connect/revocation","scopes_supported":["openid","profile","email","offline_access","read","write","roles"],"claims_supported":["sub","name","family_name","given_name","middle_name","nickname","preferred_username","profile","picture","website","gender","birthdate","zoneinfo","locale","updated_at","email","email_verified"],"response_types_supported":["code","token","id_token","id_token token","code id_token","code token","code id_token token"],"response_modes_supported":["form_post","query","fragment"],"grant_types_supported":["authorization_code","client_credentials","password","refresh_token","implicit"],"subject_types_supported":["public"],"id_token_signing_alg_values_supported":["RS256"],"token_endpoint_auth_methods_supported":["client_secret_post","client_secret_basic"]}
+[2017-10-27 20:57:16] Discovery: Array
+(
+    [issuer] => https://idsrv-qa.asposeptyltd.com/identity
+    [jwks_uri] => https://idsrv-qa.asposeptyltd.com/identity/.well-known/jwks
+    [authorization_endpoint] => https://idsrv-qa.asposeptyltd.com/identity/connect/authorize
+    [token_endpoint] => https://idsrv-qa.asposeptyltd.com/identity/connect/token
+    [userinfo_endpoint] => https://idsrv-qa.asposeptyltd.com/identity/connect/userinfo
+    [end_session_endpoint] => https://idsrv-qa.asposeptyltd.com/identity/connect/endsession
+    [check_session_iframe] => https://idsrv-qa.asposeptyltd.com/identity/connect/checksession
+    [revocation_endpoint] => https://idsrv-qa.asposeptyltd.com/identity/connect/revocation
+    [scopes_supported] => Array
+        (
+            [0] => openid
+            [1] => profile
+            [2] => email
+            [3] => offline_access
+            [4] => read
+            [5] => write
+            [6] => roles
+        )
+
+    [claims_supported] => Array
+        (
+            [0] => sub
+            [1] => name
+            [2] => family_name
+            [3] => given_name
+            [4] => middle_name
+            [5] => nickname
+            [6] => preferred_username
+            [7] => profile
+            [8] => picture
+            [9] => website
+            [10] => gender
+            [11] => birthdate
+            [12] => zoneinfo
+            [13] => locale
+            [14] => updated_at
+            [15] => email
+            [16] => email_verified
+        )
+
+    [response_types_supported] => Array
+        (
+            [0] => code
+            [1] => token
+            [2] => id_token
+            [3] => id_token token
+            [4] => code id_token
+            [5] => code token
+            [6] => code id_token token
+        )
+
+    [response_modes_supported] => Array
+        (
+            [0] => form_post
+            [1] => query
+            [2] => fragment
+        )
+
+    [grant_types_supported] => Array
+        (
+            [0] => authorization_code
+            [1] => client_credentials
+            [2] => password
+            [3] => refresh_token
+            [4] => implicit
+        )
+
+    [subject_types_supported] => Array
+        (
+            [0] => public
+        )
+
+    [id_token_signing_alg_values_supported] => Array
+        (
+            [0] => RS256
+        )
+
+    [token_endpoint_auth_methods_supported] => Array
+        (
+            [0] => client_secret_post
+            [1] => client_secret_basic
+        )
+
+)
+
+[2017-10-27 20:57:16] set state: 753e91f1325fc99cff8bd296b9ec3198
+[2017-10-27 20:57:16] set nonce: 766c776c308a0833485369d2860c83c5
+[2017-10-27 20:57:16] Redirect to: https://idsrv-qa.asposeptyltd.com/identity/connect/authorize?response_type=code&redirect_uri=https%3A%2F%2Fstatus-dev.dynabic.com%2Fidercallback&client_id=stage.dynabic.cachet&nonce=766c776c308a0833485369d2860c83c5&state=753e91f1325fc99cff8bd296b9ec3198&scope=openid
