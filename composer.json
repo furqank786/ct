@@ -25,7 +25,6 @@
         }
     ],
     "require": {
-        "php": ">=5.6.4",
         "ext-xml": "*",
         "alt-three/badger": "^3.1",
         "alt-three/bus": "^2.0",
