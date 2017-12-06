@@ -212,12 +212,12 @@ return [
         /**
          * Service provider of Dynabic.Menu
          */
-        DynabicCachet\Menu\MenuServiceProvider::class,
+        //fk DynabicCachet\Menu\MenuServiceProvider::class,
 
         /**
          * Service provider of Dynabic.Passport
          */
-        DynabicCachet\Passport\PassportServiceProvider::class,
+        //fk DynabicCachet\Passport\PassportServiceProvider::class,
 
     ]),
 
